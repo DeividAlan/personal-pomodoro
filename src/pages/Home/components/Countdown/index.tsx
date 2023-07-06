@@ -30,7 +30,7 @@ export function Countdown() {
           setSecondsPassed(totalSeconds);
           clearInterval(interval);
         } else {
-          setSecondsPassed(totalSeconds);
+          setSecondsPassed(secondsDifference);
         }
       }, 1000);
     }
